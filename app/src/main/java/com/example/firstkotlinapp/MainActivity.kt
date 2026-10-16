@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
                         .navigationBarsPadding().padding(16.dp)
                         .verticalScroll(rememberScrollState())
                 ) {
-                    Text("姓名：Yang-chen-hong")
+                    Text("姓名：杨陈宏")
                     Text("实验二 网络访问")
                     Button(enabled = !busy, onClick = {
                         request(HTTPS_URL)
