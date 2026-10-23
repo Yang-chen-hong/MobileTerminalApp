@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
                         .navigationBarsPadding().padding(16.dp)
                         .verticalScroll(rememberScrollState())
                 ) {
-                    Text("姓名：你的姓名") // 修改为自己姓名
+                    Text("姓名：Yang‑chen‑hong") // 修改为自己姓名
                     Text("实验二 网络访问")
 
                     Button(enabled = !busy, onClick = {
